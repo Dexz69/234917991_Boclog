@@ -1,0 +1,104 @@
+    1  ifconfig
+    2  pkg install termux-api
+    3  ifconfig
+    4  gh auth login
+    5  pkg install gh
+    6  gh auth login
+    7  ifconfig
+    8  pkg insta termux-api
+    9  ifconfig
+   10  gh auth login
+   11  gh augh login
+   12  gh auth login
+   13  git clone https://github.com/Dexz69/234917991_Boclog
+   14  pkg install git
+   15  git clone https://github.com/Dexz69/234917991_Boclog
+   16  ls
+   17  cd 234917991_Boclog
+   18  git status
+   19  touch lab.txt
+   20  git add
+   21  git add .
+   22  git commit
+   23  git config --global user.email (lutgardezboclog789@gmail.com
+   24  git config --global user.email "lutgardezboclog789@gmail.com"
+   25  git config --global user.name "Dexz"
+   26  git commit -m "git in Termux"
+   27  git shortlog
+   28  git config
+   29  clear
+   30  exit
+   31  clear
+   32  ~/yourrepo
+   33  mkdir linux_practice
+   34  cd linux_practice
+   35  touch notes.txt
+   36  ls>>notes.txt
+   37  cat notes.txt
+   38  echo "Hello, linux!">notes.txt
+   39  echo "This is a practical exam.">>notes.txt
+   40  head -n notes.txt
+   41  head -n 1 notes.txt
+   42  tail -n 1notes.txt
+   43  tail -n 1 notes.txt
+   44  mkdir subdir
+   45  mv notes.txt
+   46  mv notes.txt subdir/
+   47  mv subdir practice_subdir
+   48  cp practice_subdir/notes.txt
+   49  co practice_subdir/notes.txt . 
+   50  cp practice_subdir/notes.txt .
+   51  dats
+   52  date
+   53  time
+   54  uptime
+   55  git checkout -b finalexam
+   56  history >exam_log.txt
+   57  git add exam_log.txt
+   58  git commit -m "Added exam_log.txt with command history"
+   59  git push origin finalexam
+   60  git checkout -b finalexam
+   61  git chechout -b finalexam
+   62  git checkout -b finalexam
+   63  pwd
+   64  history
+   65  ls -l
+   66  cd linux_practice
+   67  ls -l
+   68  cat notes.txt
+   69  head -n 1 notes.txt
+   70  tail -n 1 notes.txt
+   71  ls -l
+   72  ls practice_subdir
+   73  ls linux_practice
+   74  date
+   75  tkmd
+   76  time
+   77  uptimd
+   78  uptime
+   79  df -h ~
+   80  ssh -V
+   81  php -v
+   82  mysql --version
+   83  apache2 -v
+   84  python --version
+   85  java -version
+   86  git branch
+   87  cat exam_log.txt
+   88  git status
+   89  git log
+   90  cd ~/projects
+   91  git clone https://github.com/Dexz69/234917991_Boclog.git
+   92  cd 234917991_Boclog
+   93  cd ~/projects
+   94  git clone https://github.com/Dexz69/234917991_Boclog
+   95  cd 234917991_Boclog
+   96  git checkout -b finalexam
+   97  cd cd 234917991_Boclog
+   98  cd 234917991_Boclog
+   99  git checkout -b finalexam
+  100  git checkout finalexam
+  101  git log -p --since='2024-08-08'
+  102  exam_log.txt --reverse -n 1
+  103  git checkout -b finalexam
+  104  history > exam_log.txt
