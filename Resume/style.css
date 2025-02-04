@@ -4,54 +4,43 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #1e1e1e; /* Dark gray background */
-    color: #f0f0f0; /* Off-white text */
+    background-color: #d3d3d3; /* Light Gray Background Outside the Portfolio */
+    color: #333; /* Dark Gray Text */
 }
 
+/* Main Container */
 .container {
     max-width: 900px;
-    margin: 20px auto;
+    margin: 40px auto; /* Centering the Portfolio */
     padding: 20px;
+    background-color: #b6b0b030; /* White Background for Portfolio */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Subtle Shadow for Elevation */
 }
 
-/* Hero Section */
-.hero {
+/* Profile Section */
+.header {
     text-align: center;
-    background-color: #ff4747; /* Bright red background */
-    color: white;
-    padding: 40px 20px;
-    margin-bottom: 20px;
+    padding: 20px 0;
 }
 
-.cta-btn {
-    display: inline-block;
-    margin-top: 15px;
-    padding: 10px 20px;
-    background-color: #333; /* Dark button */
-    color: white;
-    border: none;
-    border-radius: 5px;
-    text-decoration: none;
-    font-size: 1rem;
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Makes Profile Image Circular */
+    border: 5px solid #ffb6c1; /* Light Pink Border */
 }
 
-.cta-btn:hover {
-    background-color: #ff7070; /* Softer red on hover */
-}
-
-/* Section Headings */
-h2 {
-    margin: 20px 0 10px;
-    color: #ff4747; /* Bright red text */
-    border-bottom: 2px solid #ff4747;
-    display: inline-block;
-    padding-bottom: 5px;
+h1 {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #ff69b4; /* Pink Text */
 }
 
 /* About Me Section */
 #about-me {
-    background-color: #2a2a2a; /* Slightly darker gray */
-    color: white;
+    background-color: #ffe4e1; /* Light Pink Box */
+    color: #333;
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 10px;
@@ -65,10 +54,11 @@ h2 {
 }
 
 .box {
-    background-color: #2a2a2a; /* Slightly darker gray */
+    background-color: #f8f8f8; /* Light Background Inside Portfolio */
     padding: 20px;
     border-radius: 10px;
     flex: 1;
+    border: 1px solid #ffb6c1; /* Light Pink Border */
 }
 
 /* Education and Achievements Section */
@@ -78,29 +68,31 @@ h2 {
     gap: 20px;
 }
 
-.project-item {
-    margin-bottom: 15px;
-}
-
-/* Contact Section */
-#contact {
-    background-color: #ff4747;
-    color: white;
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
-}
-
-.contact-list {
+/* Social Media */
+.social-media ul {
     list-style: none;
     padding: 0;
 }
 
-.contact-list li {
+.social-media li {
     margin-bottom: 10px;
 }
 
-.contact-list a {
-    color: #f0f0f0;
+.social-media a {
     text-decoration: none;
+    color: #ff69b4; /* Pink Links */
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #ffb6c1;
+    color: #fff;
+    border-radius: 5px;
 }
