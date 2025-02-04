@@ -4,95 +4,118 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #d3d3d3; /* Light Gray Background Outside the Portfolio */
-    color: #333; /* Dark Gray Text */
+    background-color: #d3d3d3; /* Light Gray Background */
+    color: #0e0e0e; /* Dark Gray Text */
 }
 
-/* Main Container */
+/* Main Container (Portfolio) */
 .container {
     max-width: 900px;
-    margin: 40px auto; /* Centering the Portfolio */
+    margin: 1in auto; /* 1-inch margin on all sides */
     padding: 20px;
-    background-color: #b6b0b030; /* White Background for Portfolio */
+    background-color: #ffffff; /* White Background */
     border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Subtle Shadow for Elevation */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Subtle Shadow */
 }
 
-/* Profile Section */
+/* Profile & About Me Layout */
+.header-about-container {
+    display: flex;
+    justify-content: space-between; /* Profile on Left, About Me on Right */
+    align-items: center;
+    gap: 16px;
+    padding: 16px;
+}
+
+/* Profile Section (Left-Aligned) */
 .header {
-    text-align: center;
-    padding: 20px 0;
+    text-align: left;
+    flex: 1;
+    padding: 16px;
 }
 
 .profile img {
     width: 150px;
     height: 150px;
-    border-radius: 50%; /* Makes Profile Image Circular */
-    border: 5px solid #ffb6c1; /* Light Pink Border */
+    border-radius: 50%;
+    border: 5px solid #ffb6c1;
 }
 
 h1 {
     font-size: 24px;
     margin: 10px 0;
-    color: #ff69b4; /* Pink Text */
+    color: #ff69b4;
 }
 
-/* About Me Section */
+/* About Me Section (Right-Aligned, No Box) */
 #about-me {
-    background-color: #ffe4e1; /* Light Pink Box */
-    color: #333;
+    color: #0f0e0e;
     padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-}
-
-/* Skills, Certifications, and Social Media */
-.skills-certifications {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-}
-
-.box {
-    background-color: #f8f8f8; /* Light Background Inside Portfolio */
-    padding: 20px;
-    border-radius: 10px;
     flex: 1;
-    border: 1px solid #ffb6c1; /* Light Pink Border */
+    margin-left: 16px;
 }
 
-/* Education and Achievements Section */
+/* Skills, Certifications, Social Media, Education & Achievements */
+.skills-certifications,
 .education-achievements {
     display: flex;
     justify-content: space-between;
-    gap: 20px;
+    gap: 16px;
+    margin-bottom: 16px;
 }
 
-/* Social Media */
-.social-media ul {
-    list-style: none;
+/* Remove Box Styling */
+.skills, .certifications, .social-media, .achievements, .contact-info {
+    background: none;
+    border: none;
     padding: 0;
 }
 
-.social-media li {
+/* Remove Bullets */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Education Left-Aligned */
+.education h2, .education h3, .education p, 
+.achievements h2, .achievements p {
+    text-align: left;
+}
+
+/* Contact Information */
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-info h2 {
+    font-size: 22px;
+    color: #101010;
     margin-bottom: 10px;
 }
 
+.contact-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-info li {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.contact-info i {
+    color: #e54a4a;
+    margin-right: 8px;
+}
+
+/* Social Media Links */
 .social-media a {
     text-decoration: none;
-    color: #ff69b4; /* Pink Links */
+    color: #0b0b0b;
 }
 
 .social-media a:hover {
     text-decoration: underline;
-}
-
-/* Footer */
-.footer {
-    text-align: center;
-    padding: 10px;
-    margin-top: 20px;
-    background-color: #ffb6c1;
-    color: #fff;
-    border-radius: 5px;
 }
