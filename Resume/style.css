@@ -1,0 +1,106 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e1e; /* Dark gray background */
+    color: #f0f0f0; /* Off-white text */
+}
+
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    background-color: #ff4747; /* Bright red background */
+    color: white;
+    padding: 40px 20px;
+    margin-bottom: 20px;
+}
+
+.cta-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #333; /* Dark button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.cta-btn:hover {
+    background-color: #ff7070; /* Softer red on hover */
+}
+
+/* Section Headings */
+h2 {
+    margin: 20px 0 10px;
+    color: #ff4747; /* Bright red text */
+    border-bottom: 2px solid #ff4747;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* About Me Section */
+#about-me {
+    background-color: #2a2a2a; /* Slightly darker gray */
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+/* Skills, Certifications, and Social Media */
+.skills-certifications {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.box {
+    background-color: #2a2a2a; /* Slightly darker gray */
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+}
+
+/* Education and Achievements Section */
+.education-achievements {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.project-item {
+    margin-bottom: 15px;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #ff4747;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.contact-list {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-list li {
+    margin-bottom: 10px;
+}
+
+.contact-list a {
+    color: #f0f0f0;
+    text-decoration: none;
+}
