@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> 81e7383 (Updated Website folder with latest changes)
 (function (factory) {
 	if (typeof define === "function" && define.amd) {
 		define(['jquery'], function ($) {
